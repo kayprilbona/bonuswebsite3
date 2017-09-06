@@ -1,0 +1,321 @@
+/* universal selector - entire page's font is lato */
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+/* moves logo towards middle */
+.navigation {
+	background-color: #F6F9F9;
+	padding: 25px 100px;
+}
+
+
+/** CALL TO ACTION SECTION **/
+#cta {
+	/* .. is beginning to path */
+	background-image: url(../img/bg1.png);
+	/* moved cta section towards middle */
+	height: 800px;
+	text-align: center;
+}
+/* targets first header */
+#cta h1 {
+	color: #ffffff;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+	margin-bottom: 60px;
+	margin-top: 0;
+	padding-top: 225px;
+	text-align: center;
+}
+
+/* adds blue color to header line */
+#cta hr {
+	border-color: #15a4fa;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#cta h2 {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 47px;
+	text-align: center;
+}
+
+#cta button {
+	/* changes color of cta button */
+	background-color: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+	/* changes color of button on left and top */
+	border-top: 1px solid #15a4fa;
+	border-left: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	/* made cta box larger */
+	padding: 10px 15px;
+}
+
+#cta a {
+	color: #fff;
+	display: inline-block;
+	margin-top: 100px;
+}
+
+/* INFO SECTION */
+#info {
+	background-color: #F6F9F9;
+	padding: 50px;
+	text-align: center;
+}
+
+#info h1 {
+	/* moved 'simple & pure' to middle of page */
+	color: #2d3950;
+	font-size: 40px;
+}
+
+/* targets info paragraphs */
+#info p {
+	/* changed paragraph color to gray */
+	color: #999999;
+	font-weight: 400;
+	/* put space (32px) between lines */
+	line-height: 32px;
+	/* default margin */
+	margin: 0 auto;
+	/* pushed paragraph closer to each other */
+	width: 74%;
+}
+
+/* features section */
+/* id classified as features */
+#features {
+	/* centers all of the features section */
+	text-align: center;
+}
+/* targets all divs 'box' within features id*/
+#features .box {
+	display: inline-block;
+	font-weight: 400;
+	/* centers and cleans up 3 features */
+	margin: 5% 1%;
+	padding: 10px;
+	width: 21%;
+}
+
+/* targets only icon boxes */
+#features .iconBox {
+	/* makes icon box from dark blue to lighter blue */
+	background: linear-gradient(to right, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+	/* add space downwards */
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* targets icons */
+#features i {
+	color: #fff;
+	display: block;
+	/* made icons larger */
+	font-size: 40px;
+	/* pushed icons towards middle */
+	padding-top: 25px;
+	width: 100%;
+}
+
+/* changes features headings */
+#features h3 {
+	color: #2d3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+
+/* changed features paragraphs */
+#features p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+
+/* targets favicon icons */
+.fa-mobile {
+	font-size: 55px;
+}
+
+.fa-paper-plane-o {
+	padding-top: 30px;
+}
+.fa-bullhorn {
+	font-size: 50px;
+}
+
+/* work section */
+#work {
+	background-color: #f6f9f9;
+	font-weight: 400;
+	/* centers images */
+	padding: 50px 0;
+	text-align: center;
+}
+
+/* targets 'showcase your work' header */
+#work h3 {
+	color: #2d3950;
+	font-size: 41px;
+	margin: 0;
+}
+
+#work p {
+	color: #909090;
+	font-size: 15px;
+	line-height: 23px;
+	text-align: center;
+}
+
+#work .box {
+	/* allows photos to line up next to each other */
+	display: inline-block;
+	font-weight: 400;
+	/* puts space between pics */
+	margin: 2% 1% 0%;
+	padding: 10px;
+	width: 25%;
+}
+
+#work img {
+	background-color: red;
+	height: 100%;
+	/* changed sizes of photos */
+	width: 100%;
+}
+
+/** CONTACT SECTION **/
+#contact {
+	/* adds background image to page */
+	background-image: url(../img/bg2.png);
+	background-position: 50%;
+	height: 500px;
+	/* pushes toward middle */
+	padding: 100px;
+	text-align: center;
+}
+
+/* targets 'stay with us' heading */
+#contact h3 {
+	color: #ffffff;
+	font-size: 41px;
+	font-weight: 400;
+	/* 7% left side and 0 0 on top/bottom/right */
+	margin: 7% 0 0;
+}
+
+#contact p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+
+/* > leads form to input and text area*/
+form > input,
+form > textarea {
+	background-color: transparent;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
+	color: #fff;
+	/* stacks input boxes on top of each other */
+	display: block;
+	font-size: 16px;
+	/* made all input boxes same length*/
+	margin: 10px auto;
+	padding: 10px;
+	width: 30%;
+}
+
+/* targets 'Subscribe to Newsletter */
+form span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* targets 'Send' button */
+form button {
+	background-color: transparent;
+	/* size, style, color */
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	margin: 25px 0 0 50px;
+	padding: 10px 25px;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #F6F9F9;
+	padding: 10px;
+	height: 50px;
+	/* pushed to the left 50px */
+	padding-left: 50px;
+}
+
+.footer p {
+	float: left;
+	margin-left: 75px;
+}
+
+/* moved social media icons to the right of page */
+#socialMedia {
+	float: right; 
+	margin: 20px 75px 0 0;
+}
+
+/* changed links to light blue color/larger */
+#socialMedia a {
+	border-radius: 2px;
+	background-color: #15a4fa;
+	color: white;
+	margin: 5px;
+	padding: 7px;
+	text-decoration: none;
+}
+
+/* targets first paragraphs of 'a' links */
+#socialMedia a:first-child {
+	padding: 7px 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
